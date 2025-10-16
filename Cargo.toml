@@ -8,7 +8,6 @@ anyhow = "1"
 bytemuck = { version = "1", features = ["derive"] }
 instant = "0.1"
 winit = "0.28"
-
 vulkano = { version = "0.34", features = ["macros", "shaderc", "runtime-shaderc"] }
 vulkano-shaders = { version = "0.34", features = ["shaderc"] }
 vulkano-win = "0.34"
